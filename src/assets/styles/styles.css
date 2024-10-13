@@ -1,0 +1,78 @@
+@layer tailwind-base, primereact, tailwind-utilities;
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* PrimeFlex import */
+@import "primeflex/primeflex.css";
+
+
+body {
+    font-size: Verdana;
+    line-height: 1.67;
+    color: rgb(0, 0, 10);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: rgb(255, 255, 255);
+}
+
+h1 {
+    font-family: Verdana;
+    color: rgb(0, 0, 0);
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+h2 {
+    font-family: Verdana;
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+h3 {
+    font-family: Verdana;
+    color: rgb(0, 0, 0);
+    font-size: 0.9rem;
+}
+
+h4 {
+    font-family: Verdana;
+    color: rgb(0, 0, 0);
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.main {
+    background-color: white;
+    min-height: 100vh;
+}
+
+.contain {
+    min-height: 85vh;
+}
+
+.header {
+    min-height: 8vh;
+    width: 100%;
+}
+
+.footer {
+    text-align: right;
+}
+
+.sidebar-content-active-links {
+    font-family: Verdana;
+    font-weight: bold;
+    border-left: 4px solid rgb(4, 0, 255);
+}
+
+.sidebar-content-links {
+    color: rgb(0, 0, 0);
+}
